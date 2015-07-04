@@ -1,0 +1,1155 @@
+__author__ = 'Mystic Dav'
+__version__ = "2.0"
+
+print('...............................................................')
+print('============ Word List Gen ============')
+print('================= by ==================')
+print('============  Mystic Dav ==============')
+print('..............................................................')
+print('Don`t add any space in the character , digits and punctuations')
+print('Like character = abcdefg....')
+print('like digits = 0122345...')
+print('like punctuations = #@%*!.....')
+print('..............................................................')
+letter = input('Enter the character you want to add\t:  ')
+digit = input('Enter the digits you want to add\t:  ')
+pun = input('Enter the symbol character\t:  ')
+print('..............................................................')
+a = letter + digit + pun
+print("Now you will Enter the maximun character you want in your wordlist"
+      "like you want wordlist that contain upto four character "
+      "then type 4 "
+      "you can enter value upto 15")
+print("You have to enter a number between 1 to 15 ")
+value = int(input('Enter the number : '))
+# this is 1 condition of this program
+if value == 1:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    FILE.close()
+# this is 2 condition of this program
+elif value == 2:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+# this is 3 condition of this program
+elif value == 3:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+# this is 4 condition of this program
+elif value == 4:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+# this is 5 condition of this program
+elif value == 5:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+# this is 6 condition of this program
+elif value == 6:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+# this is 7 condition of this program
+elif value == 7:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+# this is 8 condition of this program
+elif value == 8:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+# this is 9 condition of this program
+elif value == 9:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        s = ''
+                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9]
+                                        FILE.write(s + '\n')
+# this is 10 condition of this program
+elif value == 10:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        s = ''
+                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9]
+                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            s = ''
+                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[
+                                                x9] + a[x10]
+                                            FILE.write(s + '\n')
+# this is 11 condition of this program
+elif value == 11:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        s = ''
+                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9]
+                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            s = ''
+                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[
+                                                x9] + a[x10]
+                                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                s = ''
+                                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + \
+                                                    a[x9] + a[x10] + a[x11]
+                                                FILE.write(s + '\n')
+# this is 12 condition of this program
+elif value == 12:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        s = ''
+                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9]
+                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            s = ''
+                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[
+                                                x9] + a[x10]
+                                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                s = ''
+                                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + \
+                                                    a[x9] + a[x10] + a[x11]
+                                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    s = ''
+                                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[
+                                                        x8] + a[x9] + a[x10] + a[x11] + a[x12]
+                                                    FILE.write(s + '\n')
+# this is 13 condition of this program
+elif value == 13:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        s = ''
+                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9]
+                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            s = ''
+                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[
+                                                x9] + a[x10]
+                                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                s = ''
+                                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + \
+                                                    a[x9] + a[x10] + a[x11]
+                                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    s = ''
+                                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[
+                                                        x8] + a[x9] + a[x10] + a[x11] + a[x12]
+                                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    for x13 in range(0, len(a)):
+                                                        s = ''
+                                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + \
+                                                            a[x8] + a[x9] + a[x10] + a[x11] + a[x12] + a[x13]
+                                                        FILE.write(s + '\n')
+# this is 14 condition of this program
+elif value == 14:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        s = ''
+                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9]
+                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            s = ''
+                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9] + a[x10]
+                                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                s = ''
+                                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9] + a[x10] + a[x11]
+                                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    s = ''
+                                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[
+                                                        x8] + a[x9] + a[x10] + a[x11] + a[x12]
+                                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    for x13 in range(0, len(a)):
+                                                        s = ''
+                                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + \
+                                                            a[x8] + a[x9] + a[x10] + a[x11] + a[x12] + a[x13]
+                                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    for x13 in range(0, len(a)):
+                                                        for x14 in range(0, len(a)):
+                                                            s = ''
+                                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[
+                                                                x7] + a[x8] + a[x9] + a[x10] + a[x11] + a[x12] + a[
+                                                                    x13] + a[x14]
+                                                            FILE.write(s + '\n')
+# this is last or 15 condition of this program
+elif value == 15:
+    file_name = input('enter the name of file and don`t enter the extension \t:  ')
+    FILE = open(file_name + '.txt', "w")
+    for x1 in range(0, len(a)):
+        s = ''
+        s = s + a[x1]
+        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            s = ''
+            s = s + a[x1] + a[x2]
+            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                s = ''
+                s = s + a[x1] + a[x2] + a[x3]
+                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    s = ''
+                    s = s + a[x1] + a[x2] + a[x3] + a[x4]
+                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        s = ''
+                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5]
+                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            s = ''
+                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6]
+                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                s = ''
+                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7]
+                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    s = ''
+                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8]
+                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        s = ''
+                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[x9]
+                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            s = ''
+                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + a[
+                                                x9] + a[x10]
+                                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                s = ''
+                                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[x8] + \
+                                                    a[x9] + a[x10] + a[x11]
+                                                FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    s = ''
+                                                    s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + a[
+                                                        x8] + a[x9] + a[x10] + a[x11] + a[x12]
+                                                    FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    for x13 in range(0, len(a)):
+                                                        s = ''
+                                                        s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[x7] + \
+                                                            a[x8] + a[x9] + a[x10] + a[x11] + a[x12] + a[x13]
+                                                        FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    for x13 in range(0, len(a)):
+                                                        for x14 in range(0, len(a)):
+                                                            s = ''
+                                                            s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + a[
+                                                                x7] + a[x8] + a[x9] + a[x10] + a[x11] + a[x12] + a[
+                                                                    x13] + a[x14]
+                                                            FILE.write(s + '\n')
+    for x1 in range(0, len(a)):
+        for x2 in range(0, len(a)):
+            for x3 in range(0, len(a)):
+                for x4 in range(0, len(a)):
+                    for x5 in range(0, len(a)):
+                        for x6 in range(0, len(a)):
+                            for x7 in range(0, len(a)):
+                                for x8 in range(0, len(a)):
+                                    for x9 in range(0, len(a)):
+                                        for x10 in range(0, len(a)):
+                                            for x11 in range(0, len(a)):
+                                                for x12 in range(0, len(a)):
+                                                    for x13 in range(0, len(a)):
+                                                        for x14 in range(0, len(a)):
+                                                            for x15 in range(0, len(a)):
+                                                                s = ''
+                                                                s = s + a[x1] + a[x2] + a[x3] + a[x4] + a[x5] + a[x6] + \
+                                                                    a[x7] + a[x8] + a[x9] + a[x10] + a[x11] + a[x12] + \
+                                                                    a[x13] + a[x14] + a[x15]
+                                                                FILE.write(s + '\n')
+# this is default condition if none of condition will work
+else:
+    print("ERROR")
+    print("Total Sum of entered lettters + digits + symbol")
+    print("is less then oouput list value")
+
+print('DONE')
+print('Thanks for Using this file')
