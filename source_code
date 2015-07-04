@@ -1,3 +1,5 @@
+__author__ = 'Mystic Dav'
+__version__ = "1.0"
 from string import *
 from random import *
  
