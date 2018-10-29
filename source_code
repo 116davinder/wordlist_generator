@@ -1,31 +1,36 @@
 __author__ = 'Mystic Dav'
-__version__ = "1.0"
+__editor__ = 'NH'
+
 from string import *
 from random import *
  
 print('============ Word List Gen ============')
-print('==============updated by ==============')
-print('============  Mystic Dav ==============')
-print('...............................................................')
 
-minimum=int(input('enter the mini.length of any give word to be generated\t:  '))
-maximum=int(input('enter the maxi. length of any give word to be generated\t:  '))
+minimum=int(input('enter the min.length of any give word to be generated\t:  '))
+maximum=int(input('enter the max. length of any give word to be generated\t:  '))
 wmaximum=int(input('enter the max number of words to be generate in the dictionary\t:  '))
-string = ''
+result = ""
+
 print('..............................................................')
-print('don`t add any space in the character , digits and punctuations')
+print('Enter the characters/numbers/punctuations seperated by spaces')
 print('..............................................................')
-letter= input('enter the character you want to add\t:  ')
-digit= input('enter the digits you want to add\t:  ')
-punct=input('enter the symbol character\t:  ')
-print('..............................................................')
-alphabet = letter + digit + punct
+
+letters= input('enter the character you want to add\t:  ')
+letters = letters.split(" ")
+digits= input('enter the digits you want to add\t:  ')
+digits = digits.split(" ")
+puncts=input('enter the symbol character\t:  ')
+puncts = puncts.split(" ")
+
+alphabets = letters + digits + puncts
+
 file_name=input('enter the name of file and don`t enter the extension \t:  ')
 FILE = open(file_name + '.txt',"w")
+FILE.write("The generated words are : \n")
 for count in range(0,wmaximum):
-  for x in sample(alphabet,randint(minimum,maximum)):
-      string+=x
-  FILE.write(string+'\n')
-  string=''
+  for x in sample(alphabets,randint(minimum,maximum)):
+      result+=x
+  FILE.write(result+'\n')
+  result=''
 FILE.close()
-print('DONE!')
+print('DONE! FILE SUCCESSFULLY CREATED')
